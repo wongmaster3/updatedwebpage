@@ -1,0 +1,67 @@
+html, body {
+  background-color: White;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14pt;
+  font-family: "Comic Sans MS", "sans-serif";
+}
+
+.content {
+  max-width: 960px;
+  padding: 10px;
+  margin: auto;
+  font-size: 14pt;
+}
+
+.container-blue {
+  padding-top: 67px;
+  padding-bottom: 67px;
+  background: rgba(169, 169, 169, 0.5);
+  font-size: 24pt;
+  letter-spacing: 4px;
+}
+
+.container-gray {
+  padding-top: 67px;
+  padding-bottom: 67px;
+}
+
+.center-content {
+  text-align: center;
+}
+
+#container {
+  height: 500px;
+  font-size: 48px;
+  background-color: black;
+  position: relative;
+}
+
+.parallax {
+    background-image: url("baltimore.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.type {
+  color: white;
+  position: absolute;
+  height: auto;
+  width: 100%;
+  top: 25%;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 30px;
+
+}
